@@ -24,7 +24,7 @@ def fetch_world_bank_data(indicator):
     return df
 
 # Function to fetch, process, and store the data
-def fetch_and_store_data(db_path='data/world_birth_data.db'):
+def fetch_and_store_data(db_path='../data/world_birth_data.db'):
     """
     Fetch birth rate and population data from World Bank,
     merge them, clean them, and store in an SQLite database.
